@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-09-22T13:57:35.863Z",
+  "nodeVersion": "24.19.0",
+  "totalBytes": 5444187,
+  "totalKB": 5316.59,
+  "totalMB": 5.192,
+  "chunkCount": 11,
+  "shared": {
+    "runtime": {
+      "bytes": 0,
+      "files": [],
+      "kb": 0
+    },
+    "main": {
+      "bytes": 203532,
+      "files": [
+        "main.0a16750f.js"
+      ],
+      "kb": 198.76
+    },
+    "vendor": {
+      "bytes": 5195827,
+      "files": [
+        "453.5d3877e5.chunk.js",
+        "941.3bfb6ffa.chunk.js"
+      ],
+      "kb": 5074.05
+    },
+    "shared": {
+      "bytes": 0,
+      "files": [],
+      "kb": 0
+    },
+    "totalBytes": 5399359,
+    "kb": 5272.81,
+    "percent": 99.2
+  },
+  "pages": [],
+  "packages": [
+    {
+      "pkg": "@bryntum/gantt-react",
+      "bytes": 4649657,
+      "kb": 4540.68,
+      "percent": 85.4,
+      "fileRefs": 103,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "@babel/runtime",
+      "bytes": 496565,
+      "kb": 484.93,
+      "percent": 9.1,
+      "fileRefs": 11,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "@bryntum/gantt",
+      "bytes": 45142,
+      "kb": 44.08,
+      "percent": 0.8,
+      "fileRefs": 1,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "react-dom",
+      "bytes": 27138,
+      "kb": 26.5,
+      "percent": 0.5,
+      "fileRefs": 4,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "react",
+      "bytes": 27138,
+      "kb": 26.5,
+      "percent": 0.5,
+      "fileRefs": 4,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "scheduler",
+      "bytes": 13569,
+      "kb": 13.25,
+      "percent": 0.2,
+      "fileRefs": 2,
+      "chunkRefs": 1
+    },
+    {
+      "pkg": "web-vitals",
+      "bytes": 4462,
+      "kb": 4.36,
+      "percent": 0.1,
+      "fileRefs": 1,
+      "chunkRefs": 1
+    }
+  ],
+  "largestPage": null,
+  "chunks": [
+    {
+      "file": "941.3bfb6ffa.chunk.js",
+      "bytes": 5191365,
+      "kb": 5069.69,
+      "classification": "shared",
+      "pageId": null,
+      "topPackages": [
+        {
+          "pkg": "@bryntum/gantt-react",
+          "count": 103
+        },
+        {
+          "pkg": "@babel/runtime",
+          "count": 11
+        },
+        {
+          "pkg": "@bryntum/gantt",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "main.0a16750f.js",
+      "bytes": 203532,
+      "kb": 198.76,
+      "classification": "main",
+      "pageId": null,
+      "topPackages": [
+        {
+          "pkg": "react-dom",
+          "count": 4
+        },
+        {
+          "pkg": "react",
+          "count": 4
+        },
+        {
+          "pkg": "scheduler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "file": "page-bundle.876a0c80.chunk.js",
+      "bytes": 8260,
+      "kb": 8.07,
+      "classification": "page",
+      "pageId": "bundle",
+      "topPackages": []
+    },
+    {
+      "file": "page-hierarchy.1bb785d3.chunk.js",
+      "bytes": 5998,
+      "kb": 5.86,
+      "classification": "page",
+      "pageId": "hierarchy",
+      "topPackages": []
+    },
+    {
+      "file": "page-interaction.fd810ca9.chunk.js",
+      "bytes": 5950,
+      "kb": 5.81,
+      "classification": "page",
+      "pageId": "interaction",
+      "topPackages": []
+    },
+    {
+      "file": "page-stress.cdd00c5d.chunk.js",
+      "bytes": 5530,
+      "kb": 5.4,
+      "classification": "page",
+      "pageId": "stress",
+      "topPackages": []
+    },
+    {
+      "file": "page-scroll.62546145.chunk.js",
+      "bytes": 5467,
+      "kb": 5.34,
+      "classification": "page",
+      "pageId": "scroll",
+      "topPackages": []
+    },
+    {
+      "file": "page-dependency.ce634581.chunk.js",
+      "bytes": 5117,
+      "kb": 5,
+      "classification": "page",
+      "pageId": "dependency",
+      "topPackages": []
+    },
+    {
+      "file": "453.5d3877e5.chunk.js",
+      "bytes": 4462,
+      "kb": 4.36,
+      "classification": "shared",
+      "pageId": null,
+      "topPackages": [
+        {
+          "pkg": "web-vitals",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "file": "page-memory.212a7626.chunk.js",
+      "bytes": 4337,
+      "kb": 4.24,
+      "classification": "page",
+      "pageId": "memory",
+      "topPackages": []
+    },
+    {
+      "file": "page-initial-load.c2cb83e0.chunk.js",
+      "bytes": 4169,
+      "kb": 4.07,
+      "classification": "page",
+      "pageId": "initial-load",
+      "topPackages": []
+    }
+  ],
+  "notes": [
+    "Bytes are the on-disk size of the .js file (pre-gzip, post-minify).",
+    "Package attribution is approximated from source-map `sources` (file-count share per chunk).",
+    "Pages are detected from `page-<id>.<hash>.chunk.js` filenames produced by `webpackChunkName` magic comments.",
+    "Empty sections are omitted from both JSON and HTML — if a section is missing, the data was absent."
+  ]
+}
