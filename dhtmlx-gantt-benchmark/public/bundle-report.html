@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bundle Report — 9/23/2026</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1, h2 { margin-top: 30px; margin-bottom: 12px; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 18px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .card-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .card-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #0f172a;
+      font-family: 'Courier New', monospace;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      background: white;
+      font-size: 13px;
+    }
+    th {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      padding: 8px 12px;
+      text-align: left;
+      font-weight: 600;
+      color: #475569;
+    }
+    td {
+      border: 1px solid #e2e8f0;
+      padding: 8px 12px;
+    }
+    tr:nth-child(even) { background: #f8fafc; }
+    tr:hover { background: #f1f5f9; }
+    .meta {
+      color: #64748b;
+      font-size: 12px;
+      margin-top: 20px;
+      padding: 12px;
+      background: #f1f5f9;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Bundle Report</h1>
+    <div class="meta">Generated: 2026-09-23T05:00:36.386Z</div>
+
+    <h2>Overview</h2>
+    <div class="summary">
+      <div class="card">
+        <div class="card-label">Total JS Payload</div>
+        <div class="card-value">1.12 MB</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Shared Bundle</div>
+        <div class="card-value">0.20 MB</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Page Chunks</div>
+        <div class="card-value">11</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Unique Packages</div>
+        <div class="card-value">5</div>
+      </div>
+    </div>
+
+    
+    <h2>Per-Page Lazy-Loaded Chunks</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Page ID</th>
+          <th>Size</th>
+          <th>% of Total</th>
+          <th>Files</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+    <tr>
+      <td>299</td>
+      <td>891.33 KB</td>
+      <td>77.6%</td>
+      <td style="font-size: 11px; color: #666;">299.943078e1.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-bundle</td>
+      <td>10.17 KB</td>
+      <td>0.9%</td>
+      <td style="font-size: 11px; color: #666;">page-bundle.bf4994b2.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-scroll</td>
+      <td>6.29 KB</td>
+      <td>0.5%</td>
+      <td style="font-size: 11px; color: #666;">page-scroll.002291c9.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-interaction</td>
+      <td>6.08 KB</td>
+      <td>0.5%</td>
+      <td style="font-size: 11px; color: #666;">page-interaction.d1ebbad0.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-stress</td>
+      <td>5.86 KB</td>
+      <td>0.5%</td>
+      <td style="font-size: 11px; color: #666;">page-stress.492dd311.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-hierarchy</td>
+      <td>5.69 KB</td>
+      <td>0.5%</td>
+      <td style="font-size: 11px; color: #666;">page-hierarchy.df9440bf.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>453</td>
+      <td>4.36 KB</td>
+      <td>0.4%</td>
+      <td style="font-size: 11px; color: #666;">453.2b6c0ed4.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-dependency</td>
+      <td>4.24 KB</td>
+      <td>0.4%</td>
+      <td style="font-size: 11px; color: #666;">page-dependency.ebac06ec.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-memory</td>
+      <td>4.12 KB</td>
+      <td>0.4%</td>
+      <td style="font-size: 11px; color: #666;">page-memory.a649bfb4.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-initial-load</td>
+      <td>3.87 KB</td>
+      <td>0.3%</td>
+      <td style="font-size: 11px; color: #666;">page-initial-load.57cae009.chunk.js</td>
+    </tr>
+  
+    <tr>
+      <td>page-landing</td>
+      <td>1.96 KB</td>
+      <td>0.2%</td>
+      <td style="font-size: 11px; color: #666;">page-landing.08fae25d.chunk.js</td>
+    </tr>
+  
+      </tbody>
+    </table>
+    
+
+    
+    <h2>Top 25 Packages by Contribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Package</th>
+          <th>Bytes</th>
+          <th>% of Total</th>
+          <th>Source Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+    <tr>
+      <td>@dhtmlx</td>
+      <td>899.21 KB</td>
+      <td>78.3%</td>
+      <td style="font-size: 11px; color: #666;">2 sources</td>
+    </tr>
+  
+    <tr>
+      <td>react-dom</td>
+      <td>7.88 KB</td>
+      <td>0.7%</td>
+      <td style="font-size: 11px; color: #666;">4 sources</td>
+    </tr>
+  
+    <tr>
+      <td>react</td>
+      <td>7.88 KB</td>
+      <td>0.7%</td>
+      <td style="font-size: 11px; color: #666;">4 sources</td>
+    </tr>
+  
+    <tr>
+      <td>scheduler</td>
+      <td>7.88 KB</td>
+      <td>0.7%</td>
+      <td style="font-size: 11px; color: #666;">2 sources</td>
+    </tr>
+  
+    <tr>
+      <td>web-vitals</td>
+      <td>4.36 KB</td>
+      <td>0.4%</td>
+      <td style="font-size: 11px; color: #666;">1 sources</td>
+    </tr>
+  
+      </tbody>
+    </table>
+    
+
+    <h2>Top 25 Chunks</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Kind</th>
+          <th>Size</th>
+          <th>Top packages</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+    <tr>
+      <td>299.943078e1.chunk.js</td>
+      <td>page / 299</td>
+      <td>891.33 KB</td>
+      <td style="font-size: 11px; color: #475569;">@dhtmlx<span style="color:#94a3b8">x1</span></td>
+    </tr>
+  
+    <tr>
+      <td>main.816886fd.js</td>
+      <td>main</td>
+      <td>204.94 KB</td>
+      <td style="font-size: 11px; color: #475569;">react-dom<span style="color:#94a3b8">x4</span>, react<span style="color:#94a3b8">x4</span>, scheduler<span style="color:#94a3b8">x2</span></td>
+    </tr>
+  
+    <tr>
+      <td>page-bundle.bf4994b2.chunk.js</td>
+      <td>page / bundle</td>
+      <td>10.17 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-scroll.002291c9.chunk.js</td>
+      <td>page / scroll</td>
+      <td>6.29 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-interaction.d1ebbad0.chunk.js</td>
+      <td>page / interaction</td>
+      <td>6.08 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-stress.492dd311.chunk.js</td>
+      <td>page / stress</td>
+      <td>5.86 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-hierarchy.df9440bf.chunk.js</td>
+      <td>page / hierarchy</td>
+      <td>5.69 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>453.2b6c0ed4.chunk.js</td>
+      <td>page / 453</td>
+      <td>4.36 KB</td>
+      <td style="font-size: 11px; color: #475569;">web-vitals<span style="color:#94a3b8">x1</span></td>
+    </tr>
+  
+    <tr>
+      <td>page-dependency.ebac06ec.chunk.js</td>
+      <td>page / dependency</td>
+      <td>4.24 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-memory.a649bfb4.chunk.js</td>
+      <td>page / memory</td>
+      <td>4.12 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-initial-load.57cae009.chunk.js</td>
+      <td>page / initial-load</td>
+      <td>3.87 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+    <tr>
+      <td>page-landing.08fae25d.chunk.js</td>
+      <td>page / landing</td>
+      <td>1.96 KB</td>
+      <td style="font-size: 11px; color: #475569;">—</td>
+    </tr>
+  
+      </tbody>
+    </table>
+
+    <div class="meta">
+      <strong>Notes:</strong>
+      <ul style="margin-left: 20px; margin-top: 8px;">
+        <li>totalBytes = sum of all .js files in build/static/js</li><li>shared = main + runtime + vendor + shared chunks</li><li>packages = extracted from source map sources field (approximate)</li><li>chunks = sorted by size descending</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
