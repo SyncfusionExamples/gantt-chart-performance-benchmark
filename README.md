@@ -1,10 +1,6 @@
 # React Gantt Chart Performance Benchmark
 
-A reproducible, side-by-side performance benchmark of four React-based Gantt chart
-components — **Syncfusion EJ2 Gantt**, ****, **Bryntum Gantt**,
-and **DHTMLX Gantt** — built on identical datasets, an identical page structure,
-and an identical measurement approach so that the resulting numbers are directly
-comparable.
+A reproducible, side-by-side performance benchmark of four React-based Gantt chart components — **Syncfusion EJ2 Gantt**,  **Bryntum Gantt**, and **DHTMLX Gantt** — built on identical datasets, an identical page structure, and an identical measurement approach so that the resulting numbers are directly comparable.
 
 ---
 
@@ -20,17 +16,14 @@ comparable.
 8. [Test Scenarios](#test-scenarios)
 9. [Running the Benchmark](#running-the-benchmark)
 10. [Metrics Collected](#metrics-collected)
-11. [Results Interpretation](#results-interpretation)
-12. [Repository Structure](#repository-structure)
-13. [Additional Notes](#additional-notes)
 
 ---
 
 ## Overview
 
-This repository hosts an in-browser benchmark suite that exercises four production
-Gantt chart libraries through a common set of workload scenarios. Each library is
-wrapped in its own self-contained Create React App sub-project so that dependency
-trees, build outputs, and dev servers cannot interfere with one another. Every
-sub-project exposes the same navigation structure, the same dataset presets, the
-same...
+This repository hosts an in-browser benchmark suite that exercises four production Gantt chart libraries through a common set of workload scenarios. Each library is wrapped in its own self-contained Create React App sub-project so that dependency trees, build outputs, and dev servers cannot interfere with one another. Every sub-project exposes the same navigation structure, the same dataset presets, the same... 
+
+## Gantt Chart Libraries Tested
+
+### DevExpress Gantt Chart
+- Offers advanced Gantt chart components with extensive functionality, including task dependencies and critical path calculations. Its robust API is designed for high performance and versatility, making it a good choice for complex project management scenarios.
