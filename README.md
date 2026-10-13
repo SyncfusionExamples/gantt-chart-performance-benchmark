@@ -1,7 +1,7 @@
 # React Gantt Chart Performance Benchmark
 
 A reproducible, side-by-side performance benchmark of four React-based Gantt chart
-components — **Syncfusion EJ2 Gantt**, **Kendo UI React Gantt**, **Bryntum Gantt**,
+components — **Syncfusion EJ2 Gantt**, , **Bryntum Gantt**,
 and **DHTMLX Gantt** — built on identical datasets, an identical page structure,
 and an identical measurement approach so that the resulting numbers are directly
 comparable.
